@@ -1,3 +1,7 @@
+*{
+    font-display: swap;
+}
+
 
 .btn-whatsapp{
     background-color: #3DC15C;
@@ -80,6 +84,9 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#movie-view iframe{
+    border: none;
+}
 
 
 
@@ -87,11 +94,12 @@
 
 
 @media screen and (min-width: 800px) {
+
+    *{
+        font-display: swap;
+    }
     
 
-        .link-site{
-            margin-left: 40px;
-        }
 
 
         .btn-whatsapp{
@@ -175,5 +183,8 @@
             background-color: rgba(0, 0, 0, 0.5);
         }
         
+        #movie-view iframe{
+            border: none;
+        }
         
 }

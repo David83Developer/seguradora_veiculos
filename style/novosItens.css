@@ -66,13 +66,13 @@
     border: 1px solid rgb(210, 210, 210);
 }
 
-.selo-view img{
-    width: 80px;
-    margin: 0 auto;
+.selo-view h2{
+    text-align: center;
 }
 
-.selo-view h2{
-    font-size: 23px;
+.selo-view img{
+    width: 55px;
+    margin: 0 auto;
 }
 
 
@@ -154,8 +154,12 @@
             border: 1px solid rgb(210, 210, 210);
         }
 
+        .selo-view h2{
+            text-align: center;
+        }
+
         .selo-view img{
-            width: 70px;
+            width: 55px;
             margin: 0 auto;
         }
 

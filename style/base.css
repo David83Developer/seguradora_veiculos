@@ -157,7 +157,6 @@ body::-webkit-scrollbar {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 0;
   }
   .movie-presentation .title {
     text-align: center;
@@ -240,7 +239,7 @@ body::-webkit-scrollbar {
     color: #fff;
   }
   .common-questions .accordion-content {
-    margin: 60px 0;
+    margin-top: 60px;
   }
   .common-questions .accordion-content .card {
     border: none;
@@ -288,7 +287,7 @@ body::-webkit-scrollbar {
   }
   .differential {
     background-color: #2E3439;
-    padding: 60px 0;
+    padding-top: 60px;
   }
   .differential .title{
     text-align: center;
@@ -448,7 +447,7 @@ body::-webkit-scrollbar {
   }
   .reasons {
     background-color: white;
-    padding: 60px 0;
+    padding:0;
   }
   @media (max-width: 991px) {
     .reasons .justify-content-between {

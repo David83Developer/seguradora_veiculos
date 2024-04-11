@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin: 50px auto;
 }
 
 .ajust-button{
@@ -37,7 +38,7 @@
 }
 
 #edit-section-info{
-    margin: 50px 0 0px 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -114,6 +115,7 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            margin: 80px auto;
         }
 
         .btn-whatsapp i{
@@ -186,5 +188,11 @@
         #movie-view iframe{
             border: none;
         }
+
+        .titulo-banner{
+            font-size: 35px;
+        }
+
+
         
 }

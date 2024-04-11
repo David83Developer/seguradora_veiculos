@@ -89,6 +89,24 @@
     border: none;
 }
 
+.btn-movie{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+    font-size: 60px;
+    outline: none;
+    margin: auto;
+}
+
+.btn-view-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/logo_youtube.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.3);
+}
 
 
 /*---------Tela maior: ---------------*/
@@ -195,11 +213,21 @@
 
         .btn-movie{
             border: none;
-            background-color: white;
+            background-color: rgba(0, 0, 0, 0);
             color: red;
-            font-size: 50px;
+            font-size: 60px;
             outline: none;
             margin: auto;
+        }
+
+        .btn-view-video{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("../img/logo_youtube.jpeg");
+            background-size: cover;
+            background-position: center;
+            box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.3);
         }
         
 }

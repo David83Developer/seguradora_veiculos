@@ -4,7 +4,6 @@ const loadVideo = () => {
 
             const btnMovie = document.querySelector('.btn-movie')
             btnMovie.style.display = "none"
-
             const movieView = document.getElementById('movie-view')
             const video = document.createElement('iframe')
             video.src = "https://www.youtube.com/embed/J776O3uXGAc"
@@ -15,3 +14,5 @@ const loadVideo = () => {
             movieView.appendChild(video)   
    
 }
+
+loadVideo()
